@@ -6,16 +6,16 @@ This project demonstrates a complete data cleaning pipeline using SQL, focused o
 
 The key steps carried out in this project include:
 
--- Remove Duplicates
+-- Remove Duplicates: 
 Used ROW_NUMBER() with PARTITION BY to identify and delete duplicate records based on key columns like company, location, date, and layoff details.
 
---Standardize the Data
+--Standardize the Data: 
 Applied TRIM(), pattern matching (LIKE), and date formatting functions (STR_TO_DATE) to correct inconsistencies in textual and date fields like company, industry, country, and date.
 
---Handle Null or Blank Values
+--Handle Null or Blank Values: 
 Identified and treated missing entries in columns like industry, total_laid_off, and percentage_laid_off. Also used self-joins to fill missing values by referencing complete records of the same company.
 
---Remove Unnecessary Columns
+--Remove Unnecessary Columns: 
 Dropped helper columns like row_num after their purpose (deduplication) was fulfilled to ensure a clean final dataset.
 
 🛠 Tools & Techniques Used
