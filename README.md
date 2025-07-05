@@ -18,18 +18,27 @@ Identified and treated missing entries in columns like industry, total_laid_off,
 Dropped helper columns like row_num after their purpose (deduplication) was fulfilled to ensure a clean final dataset.
 
 🛠 Tools & Techniques Used
--- MySQL
+-- MySQLc
+
 -- Window Functions (ROW_NUMBER())
+
 -- String Functions (TRIM, LIKE)
+
 -- Date Conversion (STR_TO_DATE)
+
 -- CTEs and Subqueries
+
 -- Data Validation & Cleanup
+
 
 
 📌 Outcomes
 -- A clean, analysis-ready dataset
+
 -- Eliminated redundancies and formatting errors
+
 -- Improved consistency across categorical fields
+
 -- Ready for use in dashboards (Power BI, Tableau) or further analytics
 
 
