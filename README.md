@@ -3,6 +3,7 @@
 This project demonstrates a complete data cleaning pipeline using SQL, focused on preparing a real-world layoffs dataset for accurate and insightful analysis. The entire process was performed using MySQL, leveraging staging tables, window functions, and string/date operations to refine the data.
 
 ✅ Project Objectives
+
 The key steps carried out in this project include:
 
 -- Remove Duplicates
@@ -18,7 +19,8 @@ Identified and treated missing entries in columns like industry, total_laid_off,
 Dropped helper columns like row_num after their purpose (deduplication) was fulfilled to ensure a clean final dataset.
 
 🛠 Tools & Techniques Used
--- MySQLc
+
+-- MySQL
 
 -- Window Functions (ROW_NUMBER())
 
@@ -33,6 +35,7 @@ Dropped helper columns like row_num after their purpose (deduplication) was fulf
 
 
 📌 Outcomes
+
 -- A clean, analysis-ready dataset
 
 -- Eliminated redundancies and formatting errors
